@@ -12,7 +12,7 @@ public class Player {
 	public void buy(double amount){
 		this.amount = amount;
 		totalAmount += amount;
-		//��һ�ַ�ʽ
+		//第一种方式
 //		if(totalAmount > 30000){
 //			calPrice = new GoldVip();
 //		} else if(totalAmount > 20000){
@@ -20,9 +20,9 @@ public class Player {
 //		} else if(totalAmount > 10000){
 //			calPrice = new Vip();
 //		}
-		//�ڶ��ַ�ʽ ���򵥹���
+		//第二种方式: 简单工厂
 //		calPrice = CalPriceFactory.createCalPrice(this);
-		//�����ַ�ʽ��ע��
+		//第三种方式: 注解
 		calPrice = CalPriceFactory.getInstance().createCalPrice(this);
 	}
 	

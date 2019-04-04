@@ -7,12 +7,12 @@ public class Client {
 	public static void main(String[] args){
 		Player player = new Player();
 		player.buy(5000D);
-        System.out.println("Íæ¼ÒÐèÒª¸¶Ç®£º" + player.calLastAmount());
+        System.out.println("çŽ©å®¶éœ€è¦ä»˜é’±ï¼š" + player.calLastAmount());
         player.buy(12000D);
-        System.out.println("Íæ¼ÒÐèÒª¸¶Ç®£º" + player.calLastAmount());
+        System.out.println("çŽ©å®¶éœ€è¦ä»˜é’±ï¼š" + player.calLastAmount());
         player.buy(12000D);
-        System.out.println("Íæ¼ÒÐèÒª¸¶Ç®£º" + player.calLastAmount());
+        System.out.println("çŽ©å®¶éœ€è¦ä»˜é’±ï¼š" + player.calLastAmount());
         player.buy(12000D);
-        System.out.println("Íæ¼ÒÐèÒª¸¶Ç®£º" + player.calLastAmount());
+        System.out.println("çŽ©å®¶éœ€è¦ä»˜é’±ï¼š" + player.calLastAmount());
 	}
 }
